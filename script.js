@@ -2,12 +2,19 @@ alert("Welcome to our app!");
 alert("We present to you......");
 alert("FreeSpace!!!");
 
+
+
 document.addEventListener("click", main);
 function main(event) {
   var button = prompt("What is your Stress Level? From 1 - 3");
   if (button === '1') {
     alert("It's is time to play Bubble pop!!!");
-    
+     var a = document.createElement('a');
+      var linkText = document.createTextNode("Level 1");
+      a.appendChild(linkText);
+      a.title = "Bubble Pop";
+      a.href = "https://gamejolt.net/?token=T8qv2KTQKV7sfhDYprEdB4KDecaGBF";
+      document.body.appendChild(a);
   } 
   if (button === '2') {
    var books = prompt("Would you like to read Comedy or Fanasty?");
