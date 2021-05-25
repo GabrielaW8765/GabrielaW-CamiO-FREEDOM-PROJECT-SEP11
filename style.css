@@ -1,9 +1,12 @@
 #hi{
-  color:blue;
+  color:#545c87;
   font-weight: 900;
 }
 #b{
   color:pink;
   background-color:black ;
   padding:15px 32px;
+}
+body{
+  background-color:#D7E2E8 ;
 }
