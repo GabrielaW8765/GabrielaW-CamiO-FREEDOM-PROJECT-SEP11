@@ -9,12 +9,9 @@ h1{
   padding:15px 32px;
   font-weight: 700;
 }
-body{
+body {
+   background-image: url("https://i.ytimg.com/vi/7O6oi_FxloA/maxresdefault.jpg");
 
-}
-
-div {
-    background: linear-gradient(to bottom, #4156A4 0%, #000000 100%);
 }
 
 h1:hover {
