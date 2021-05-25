@@ -8,12 +8,11 @@ h1{
   background-color:black ;
   padding:15px 32px;
 }
-body{
-  background-color:#D7E2E8 ;
-}
 
-div {
-    background: linear-gradient(to bottom, #4156A4 0%, #000000 100%);
+
+body {
+   background-image: url("https://i.ytimg.com/vi/7O6oi_FxloA/maxresdefault.jpg");
+
 }
 
 h1:hover {
