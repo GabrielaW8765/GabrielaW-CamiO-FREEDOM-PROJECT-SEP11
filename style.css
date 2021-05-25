@@ -1,5 +1,5 @@
-#hi{
-  color:blue;
+h1{
+  color:lightblue;
   font-weight: 900;
 }
 #b{
@@ -7,3 +7,11 @@
   background-color:black ;
   padding:15px 32px;
 }
+
+div {
+    background: linear-gradient(to bottom, #4156A4 0%, #000000 100%);
+}
+
+h1:hover {
+   color: Purple;
+ }
