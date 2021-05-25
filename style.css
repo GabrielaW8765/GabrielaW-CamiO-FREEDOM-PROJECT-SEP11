@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 h1{
   color:lightblue;
+=======
+#hi{
+  color:#545c87;
+>>>>>>> b781560feee8f960cae0185eb4142f86332ddb96
   font-weight: 900;
 }
 #b{
@@ -7,6 +12,7 @@ h1{
   background-color:black ;
   padding:15px 32px;
 }
+<<<<<<< HEAD
 
 div {
     background: linear-gradient(to bottom, #4156A4 0%, #000000 100%);
@@ -15,3 +21,8 @@ div {
 h1:hover {
    color: Purple;
  }
+=======
+body{
+  background-color:#D7E2E8 ;
+}
+>>>>>>> b781560feee8f960cae0185eb4142f86332ddb96
