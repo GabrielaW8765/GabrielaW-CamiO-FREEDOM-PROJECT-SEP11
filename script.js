@@ -3,8 +3,8 @@ alert("We present to you......");
 alert("FreeSpace!!!");
 
 
-var redstone = document.getElementById("button");
-redstone.addEventListener("click", main);
+
+document.addEventListener("click", main);
 function main(event) {
   var button = prompt("What is your Stress Level? From 1 - 3");
   if (button === '1') {
