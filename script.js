@@ -26,9 +26,9 @@ function main(event) {
       document.body.appendChild(a);
   } 
   if (button === '2') {
-   var books = prompt("Would you like to read Comedy or Fanasty?");
+   var books = prompt("Would you like to read Comedy or Fantasy?");
    if ((books === 'Comedy') || (books === 'comedy')){
-    alert("Time to read some Comdey!! :)")
+    alert("Time to read some Comedyy!! :)")
          var a = document.createElement('a');
       var linkText = document.createTextNode("Level 2");
       a.appendChild(linkText);
@@ -36,11 +36,11 @@ function main(event) {
       a.href = "https://www.wattpad.com/stories/comedy";
       document.body.appendChild(a);
    }else{
-    alert("Time to read some Fanasty!! :D");
+    alert("Time to read some Fantasy!! :D");
          var a = document.createElement('a');
       var linkText = document.createTextNode("Level 2");
       a.appendChild(linkText);
-      a.title = "Fanasty";
+      a.title = "Fantasy";
       a.href = "https://www.wattpad.com/stories/fantasy";
       document.body.appendChild(a);     
    };
