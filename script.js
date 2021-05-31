@@ -10,7 +10,8 @@ var mc = new Hammer(myElement);
 
 // listen to events...
 mc.on("panleft panright tap press", function(ev) {
-    myElement.textContent = ev.type +" gesture detected.";
+    myElement.textContent = "Yo, you are on the "+ev.type +" side. YAY!! :D";
+    
 });
 
 document.addEventListener("click", main);
