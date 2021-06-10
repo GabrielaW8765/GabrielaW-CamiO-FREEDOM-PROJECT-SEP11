@@ -6,12 +6,18 @@ var myElement = document.getElementById('myElement');
 
 // create a simple instance
 // by default, it only adds horizontal recognizers
+
+
+// create a simple instance
+// by default, it only adds horizontal recognizers
 var mc = new Hammer(myElement);
 
 // listen to events...
 mc.on("panleft panright tap press", function(ev) {
-    myElement.textContent = "Yo, you are on the "+ev.type +" side. YAY!! :D";
-    
+    myElement.textContent = "You are on the "+ev.type +" side. YAY! :D";
+    //this won't work
+document.myElement.style.backgroundColor = "white";
+ 
 });
 
 document.addEventListener("click", main);
